@@ -10,10 +10,10 @@
 <div class="container p-5 mt-3">
   <h1>GRID SYSTEM</h1>
   <p>Three equal width columns</p>
-  <div class="row">
-    <div class="col p-3 bg-primary text-white">1st column</div>
-    <div class="col p-3 bg-dark text-white">2st column</div>
-    <div class="col p-3 bg-primary text-white">3rd column</div>
+   <div class="row">
+    <div class="col p-3 bg-warning text-white">1st column</div>
+    <div class="col p-3 bg-primary text-white">2st column</div>
+    <div class="col p-3 bg-warning text-white">3rd column</div>
   </div>
 </div>
 </body>
