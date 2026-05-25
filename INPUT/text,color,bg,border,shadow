@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+<h1 CLASS="text-warning bg-primary p-3 my-3 border border-5 border border-dark">SANJAY GABRIEL</h1>
+<h3 class="text-primary bg-warning p-2 border border-3 border gray">patrician college of arts and science</h3>
+<h4 class="border rounded-pill bg-warning px-3 py-2 border border-primary" style="width:400px">studing BSc computer science</h4>
+<h1 class="shadow-lg p-4 mb-4 bg-dark text-white" style="width: 250px;">and AI/ML</h1>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</html>
