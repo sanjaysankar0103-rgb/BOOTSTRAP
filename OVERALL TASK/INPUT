@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDREAM TRAVELS</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .carousel img {
+            height: 400px;
+            object-fit: cover;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 30px 0;
+            color: green;
+        }
+
+        .card img {
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+            transition: 0.3s;
+        }
+
+        footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                DREAM TRAVELS
+            </a>
+
+        </div>
+
+    </nav>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+
+                <img src="https://img.magnific.com/free-photo/full-shot-travel-concept-with-landmarks_23-2149153258.jpg?semt=ais_hybrid&w=740&q=80"
+                    class="d-block w-100">
+
+            </div>
+
+            <div class="carousel-item">
+
+                <img src="https://t4.ftcdn.net/jpg/00/65/48/25/360_F_65482539_C0ZozE5gUjCafz7Xq98WB4dW6LAhqKfs.jpg"
+                    class="d-block w-100">
+
+            </div>
+
+            <div class="carousel-item">
+
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/036/054/418/small/ai-generated-landing-a-plane-against-a-golden-sky-at-sunset-passenger-aircraft-flying-up-in-sunset-light-travelling-and-business-concept-photo.jpg"
+                    class="d-block w-100">
+
+            </div>
+
+        </div>
+        <button class="carousel-control-prev"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="prev">
+
+            <span class="carousel-control-prev-icon"></span>
+
+        </button>
+
+        <button class="carousel-control-next"
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide="next">
+
+            <span class="carousel-control-next-icon"></span>
+
+        </button>
+
+    </div>
+
+    <h1>Popular Travel Places</h1>
+
+    <div class="container">
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+
+                <div class="card shadow">
+
+                    <img src="https://titosgoa.com/api/uploads/1768282500728-why-tourists-visit-goa.png"
+                        class="card-img-top">
+
+                    <div class="card-body text-center">
+
+                        <h4>Goa</h4>
+
+                        <p>Beautiful beach destination.</p>
+
+                        <button class="btn btn-success"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#goa">
+
+                            Book Now
+
+                        </button>
+
+                        <div id="goa" class="collapse mt-3">
+
+                            <div class="card card-body">
+
+                                Price : ₹1,00,000 <br>
+                                3 Days Package
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card shadow">
+
+                    <img src="https://travloger.in/wp-content/uploads/2025/04/iStock-1127001943s-scaled.webp"
+                        class="card-img-top">
+
+                    <div class="card-body text-center">
+
+                        <h4>Ooty</h4>
+
+                        <p>Cool hill station trip.</p>
+
+                        <button class="btn btn-success"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#ooty">
+
+                            Book Now
+
+                        </button>
+
+                        <div id="ooty" class="collapse mt-3">
+
+                            <div class="card card-body">
+
+                                Price : ₹9,00,000 <br>
+                                2 Days Package
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card shadow">
+
+                    <img src="https://media.worldnomads.com/social-share-images/india/see-and-do-kerala-social.jpg"
+                        class="card-img-top">
+
+                    <div class="card-body text-center">
+
+                        <h4>Kerala</h4>
+
+                        <p>Amazing backwater experience.</p>
+
+                        <button class="btn btn-success"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#kerala">
+
+                            Book Now
+
+                        </button>
+
+                        <div id="kerala" class="collapse mt-3">
+
+                            <div class="card card-body">
+
+                                Price : ₹50,000 <br>
+                                4 Days Package
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card shadow">
+
+                    <img src="https://d3gz7d9rg09miz.cloudfront.net/travel/1762306582668-346470908.jpg"
+                        class="card-img-top">
+
+                    <div class="card-body text-center">
+
+                        <h4>Manali</h4>
+
+                        <p>Snow mountains and adventure trip.</p>
+
+                        <button class="btn btn-success"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#manali">
+
+                            Book Now
+
+                        </button>
+
+                        <div id="manali" class="collapse mt-3">
+
+                            <div class="card card-body">
+
+                                Price : ₹18,000 <br>
+                                5 Days Package
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card shadow">
+
+                    <img src="https://media.istockphoto.com/id/2211711751/photo/eiffel-tower-and-streets-of-paris-in-spring-france.jpg?s=612x612&w=0&k=20&c=Li-RQ9Kz_2fme6HNODVE8x29vAbcEC2i182xHz6cFjU="
+                        class="card-img-top">
+
+                    <div class="card-body text-center">
+
+                        <h4>Paris</h4>
+
+                        <p>Romantic city with Eiffel Tower.</p>
+
+                        <button class="btn btn-success"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#paris">
+
+                            Book Now
+
+                        </button>
+
+                        <div id="paris" class="collapse mt-3">
+
+                            <div class="card card-body">
+
+                                Price : ₹90,000 <br>
+                                7 Days Package
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card shadow">
+
+                    <img src="https://visitmaldives.s3.amazonaws.com/Ejo6dDYr/c/2qgqtn5h-shareable_image.jpg"
+                        class="card-img-top">
+
+                    <div class="card-body text-center">
+
+                        <h4>Maldives</h4>
+
+                        <p>Beautiful island vacation place.</p>
+
+                        <button class="btn btn-success"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#maldives">
+
+                            Book Now
+
+                        </button>
+
+                        <div id="maldives" class="collapse mt-3">
+
+                            <div class="card card-body">
+
+                                Price : ₹75,000 <br>
+                                6 Days Package
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+      DREAM TRAVELS
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</html>
